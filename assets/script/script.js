@@ -2,16 +2,15 @@
 function darkMode() {
   const element = document.body;
   const button = document.getElementById("theme-button");
-  const img = document.getElementById("devinhub");
-  console.log(img.src);
+  const img = document.getElementById("devinhub").src;
 
   element.classList.toggle("dark-mode");
   button.classList.toggle("ri-sun-line");
 
-  if (img.src === "assets/img/logo1.png") {
-    img.src = "assets/img/logo1.png";
+  if (img.indexOf("logo1.png") != -1) {
+    document.getElementById("devinhub").src = "assets/img/logo2.png";
   } else {
-    img.src = "assets/img/logo2.png";
+    document.getElementById("devinhub").src = "assets/img/logo1.png";
   }
 }
 
