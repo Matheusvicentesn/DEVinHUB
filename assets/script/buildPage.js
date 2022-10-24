@@ -1,4 +1,4 @@
-const week1 = [
+const module1 = [
   {
     semana: "semana 1",
     linkgit: "www.github.com.br",
@@ -66,7 +66,7 @@ const week1 = [
   },
 ];
 
-const week2 = [
+const module2 = [
   {
     semana: "semana 1",
     linkgit: "www.github.com.br",
@@ -134,7 +134,7 @@ const week2 = [
   },
 ];
 
-const week3 = [
+const module3 = [
   {
     semana: "semana 1",
     linkgit: "www.github.com.br",
@@ -231,7 +231,7 @@ document.getElementById("container_1").innerHTML = week1
 // Semana 1
 
 // Semana 2
-document.getElementById("container_2").innerHTML = week2
+document.getElementById("container_2").innerHTML = module2
   .map(
     (week) =>
       `  <!-- ${week.semana} -->
@@ -258,7 +258,7 @@ document.getElementById("container_2").innerHTML = week2
 // Semana 2
 
 // Semana 3
-document.getElementById("container_3").innerHTML = week3
+document.getElementById("container_3").innerHTML = module3
   .map(
     (week) =>
       `  <!-- ${week.semana} -->
