@@ -1,6 +1,6 @@
 const week1 = [
   {
-    semana: "semana1",
+    semana: "semana 1",
     linkgit: "www.github.com.br",
     linkpages: "www.github.com.br",
   },
@@ -68,7 +68,7 @@ const week1 = [
 
 const week2 = [
   {
-    semana: "semana1",
+    semana: "semana 1",
     linkgit: "www.github.com.br",
     linkpages: "www.github.com.br",
   },
@@ -136,7 +136,7 @@ const week2 = [
 
 const week3 = [
   {
-    semana: "semana1",
+    semana: "semana 1",
     linkgit: "www.github.com.br",
     linkpages: "www.github.com.br",
   },

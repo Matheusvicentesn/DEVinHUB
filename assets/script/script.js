@@ -2,8 +2,17 @@
 function darkMode() {
   const element = document.body;
   const button = document.getElementById("theme-button");
+  const img = document.getElementById("devinhub");
+  console.log(img.src);
+
   element.classList.toggle("dark-mode");
   button.classList.toggle("ri-sun-line");
+
+  if (img.src === "assets/img/logo1.png") {
+    img.src = "assets/img/logo1.png";
+  } else {
+    img.src = "assets/img/logo2.png";
+  }
 }
 
 // Scrol Horizontal
