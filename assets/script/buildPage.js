@@ -202,9 +202,8 @@ const module3 = [
   },
 ];
 
-
 // Semana 1
-document.getElementById("container_1").innerHTML = week1
+document.getElementById("container_1").innerHTML = module1
   .map(
     (week) =>
       `  <!-- ${week.semana} -->
