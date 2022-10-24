@@ -159,7 +159,6 @@ a {
   position: relative;
   overflow: hidden;
   padding: 20px;
-  
 }
 
 #slider-horizontal h2 {
@@ -169,6 +168,7 @@ a {
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  scroll-behavior: unset;
 }
 
 /* Scroll Bar ( Barra de Rolagem ) */
