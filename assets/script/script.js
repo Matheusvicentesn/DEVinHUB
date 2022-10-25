@@ -21,7 +21,7 @@ container_1.addEventListener("wheel", (event) => {
   event.preventDefault();
 
   container_1.scrollBy({
-    left: event.deltaY < 0 ? -30 : 30,
+    left: event.deltaY < 0 ? -50 : 50,
   });
 });
 
@@ -31,7 +31,7 @@ container_2.addEventListener("wheel", (event) => {
   event.preventDefault();
 
   container_2.scrollBy({
-    left: event.deltaY < 0 ? -30 : 30,
+    left: event.deltaY < 0 ? -50 : 50,
   });
 });
 
@@ -41,6 +41,6 @@ container_3.addEventListener("wheel", (event) => {
   event.preventDefault();
 
   container_3.scrollBy({
-    left: event.deltaY < 0 ? -30 : 30,
+    left: event.deltaY < 0 ? -50 : 50,
   });
 });
