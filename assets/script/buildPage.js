@@ -202,83 +202,42 @@ const module3 = [
   },
 ];
 
-// Semana 1
+function montModule(week) {
+  return `  <!-- ${week.semana} -->
+            <div class="conteudotCard">
+              <div class="atividade">
+                <p href="#" target="_blank">${week.semana}</p>
+              </div>
+              <div class="links">
+                <!-- Link Github -->
+                <a href="${week.linkgit}" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>   
+                      <!-- Link da página -->
+                <a href="${week.linkpages}" target="_blank">
+                  <i class="ri-external-link-fill"></i>
+        
+                </a>
+
+              </div>
+            </div>
+            <!-- ${week.semana} -->`;
+}
+
+// Modulo 1
 document.getElementById("container_1").innerHTML = module1
-  .map(
-    (week) =>
-      `  <!-- ${week.semana} -->
-            <div class="conteudotCard">
-              <div class="atividade">
-                <p href="#" target="_blank">${week.semana}</p>
-              </div>
-              <div class="links">
-                <!-- Link Github -->
-                <a href="${week.linkgit}" target="_blank">
-                  <i class="ri-github-fill"></i>
-                </a>   
-                      <!-- Link da página -->
-                <a href="${week.linkpages}" target="_blank">
-                  <i class="ri-external-link-fill"></i>
-        
-                </a>
-
-              </div>
-            </div>
-            <!-- ${week.semana} -->`
-  )
+  .map((week) => montModule(week))
   .join("");
-// Semana 1
+// Modulo 1
 
-// Semana 2
+// Modulo 2
 document.getElementById("container_2").innerHTML = module2
-  .map(
-    (week) =>
-      `  <!-- ${week.semana} -->
-            <div class="conteudotCard">
-              <div class="atividade">
-                <p href="#" target="_blank">${week.semana}</p>
-              </div>
-              <div class="links">
-                <!-- Link Github -->
-                <a href="${week.linkgit}" target="_blank">
-                  <i class="ri-github-fill"></i>
-                </a>   
-                      <!-- Link da página -->
-                <a href="${week.linkpages}" target="_blank">
-                  <i class="ri-external-link-fill"></i>
-        
-                </a>
-
-              </div>
-            </div>
-            <!-- ${week.semana} -->`
-  )
+  .map((week) => montModule(week))
   .join("");
-// Semana 2
+// Modulo 2
 
-// Semana 3
+// Modulo 3
 document.getElementById("container_3").innerHTML = module3
-  .map(
-    (week) =>
-      `  <!-- ${week.semana} -->
-            <div class="conteudotCard">
-              <div class="atividade">
-                <p href="#" target="_blank">${week.semana}</p>
-              </div>
-              <div class="links">
-                <!-- Link Github -->
-                <a href="${week.linkgit}" target="_blank">
-                  <i class="ri-github-fill"></i>
-                </a>   
-                      <!-- Link da página -->
-                <a href="${week.linkpages}" target="_blank">
-                  <i class="ri-external-link-fill"></i>
-        
-                </a>
-
-              </div>
-            </div>
-            <!-- ${week.semana} -->`
-  )
+  .map((week) => montModule(week))
   .join("");
-// Semana 3
+// Modulo 3
