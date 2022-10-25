@@ -73,7 +73,11 @@ Todas as cores do projeto estão em variáveis para facilitar a edição dos est
 
 Melhorias que poderão ser feitas no projeto posteriormente.
 
-- [ ] Vídeo de demonstrando como realizar todas as modificações
+- [x] Vídeo de demonstrando como realizar todas as modificações
+
+## Demonstração do projeto
+
+[![Devinhub](assets/img/readme/tumb.jpg)](https://www.youtube.com/watch?v=y1-NfsYbaqk "Devinhub")
 
 
 ### Contato
